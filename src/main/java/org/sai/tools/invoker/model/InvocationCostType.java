@@ -1,4 +1,4 @@
-package org.sai.tools.throttler.model;
+package org.sai.tools.invoker.model;
 
 /**
  * Created by saipkri on 09/08/16.

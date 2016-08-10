@@ -1,10 +1,10 @@
-package org.sai.tools.throttler.scratchpad;
+package org.sai.tools.invoker.scratchpad;
 
-import org.sai.tools.throttler.facade.InvokerFacade;
-import org.sai.tools.throttler.factory.InvokerFactory;
-import org.sai.tools.throttler.model.InvocationCostType;
-import org.sai.tools.throttler.model.InvokerConfig;
-import org.sai.tools.throttler.model.InvokerConfigBuilder;
+import org.sai.tools.invoker.facade.InvokerFacade;
+import org.sai.tools.invoker.factory.InvokerFactory;
+import org.sai.tools.invoker.model.InvocationCostType;
+import org.sai.tools.invoker.model.InvokerConfig;
+import org.sai.tools.invoker.model.InvokerConfigBuilder;
 
 import java.util.function.Function;
 

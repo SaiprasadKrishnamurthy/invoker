@@ -28,7 +28,7 @@ withTooManyInvocationsExceptionCallback --> When there are too many requests bey
 
 #### Step 2: Get a InvocationFacade  ####
 ```
-InvokerrFacade<Integer, String> facade = InvokerrFactory.getInstance().fromConfig(InvokerPolicy);
+InvokerFacade<Integer, String> facade = InvokerrFactory.getInstance().fromConfig(InvokerPolicy);
 // This is the function we want to invoke (Just a trivial function).
 Function<Integer, String> actualFunction = n -> " | " + n + " | ";
 // This is how we call it.

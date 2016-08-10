@@ -1,8 +1,8 @@
-package org.sai.tools.throttler.facade;
+package org.sai.tools.invoker.facade;
 
 import lombok.Data;
-import org.sai.tools.throttler.model.DataTuple;
-import org.sai.tools.throttler.model.TooManyInvocationsException;
+import org.sai.tools.invoker.model.DataTuple;
+import org.sai.tools.invoker.model.TooManyInvocationsException;
 
 import java.util.Comparator;
 import java.util.concurrent.*;

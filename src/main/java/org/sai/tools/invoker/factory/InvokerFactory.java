@@ -1,12 +1,12 @@
-package org.sai.tools.throttler.factory;
+package org.sai.tools.invoker.factory;
 
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
-import org.sai.tools.throttler.facade.InvokerFacade;
-import org.sai.tools.throttler.model.DataTuple;
-import org.sai.tools.throttler.model.InvokerConfig;
-import org.sai.tools.throttler.model.TooManyInvocationsException;
+import org.sai.tools.invoker.facade.InvokerFacade;
+import org.sai.tools.invoker.model.DataTuple;
+import org.sai.tools.invoker.model.InvokerConfig;
+import org.sai.tools.invoker.model.TooManyInvocationsException;
 
 import java.util.Comparator;
 import java.util.concurrent.ConcurrentHashMap;

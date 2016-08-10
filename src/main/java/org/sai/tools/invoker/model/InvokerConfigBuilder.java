@@ -1,4 +1,4 @@
-package org.sai.tools.throttler.model;
+package org.sai.tools.invoker.model;
 
 import lombok.Getter;
 
